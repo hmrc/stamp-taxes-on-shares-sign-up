@@ -1,11 +1,8 @@
-import play.core.PlayVersion
-import play.sbt.PlayImport._
-import sbt.Keys.libraryDependencies
-import sbt._
+import sbt.*
 
 object AppDependencies {
 
-  private val bootstrapVersion = "9.7.0"
+  private val bootstrapVersion = "9.9.0"
   
 
   val compile = Seq(
