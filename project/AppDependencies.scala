@@ -2,12 +2,11 @@ import sbt.*
 
 object AppDependencies {
 
-  private val bootstrapVersion = "9.9.0"
+  private val bootstrapVersion = "9.11.0"
 
   val compile = Seq(
     "uk.gov.hmrc"             %% "bootstrap-backend-play-30"  % bootstrapVersion,
     "org.scalactic"           %% "scalactic"                  % "3.2.19",
-    "uk.gov.hmrc"             %% "http-verbs-play-30"         % "15.2.0",
   )
 
   val test = Seq(
